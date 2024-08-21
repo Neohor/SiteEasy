@@ -1,0 +1,56 @@
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #000;
+	color: #FFF;
+}
+
+#footerBlock {
+	position: relative;
+	width: 80%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 2%;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+#informBlock {
+	flex: 2;
+	margin-right: 10%;
+}
+
+#iconBlock {
+	flex: 1;
+}
+
+i {
+	font-size: 150%;
+	margin-left: 8%;
+	transition: all 0.2s ease-out;
+}
+
+i:hover {
+	color: #00B5AF;
+}
+
+#enterpriseBlock{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background-color: #3B3B3B;
+	padding: 1%;
+	font-size: 100%;
+}
+
+.footerCaption {
+	font-size: 180%;
+	margin-bottom: 5%;
+}
+
+.footerText {
+	font-size: 100%;
+	margin-bottom: 3%;
+}
+

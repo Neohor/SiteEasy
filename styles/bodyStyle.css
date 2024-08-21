@@ -1,0 +1,67 @@
+article {
+	width: 100%;
+	position: relative;
+}
+
+#dishsBlock {
+	position: relative;
+	width: 80%;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%; 
+}
+
+#mainCaption {
+	font-size: 230%;
+	font-weight: bold;
+	margin-bottom: 8%;
+}
+
+#dishsBlock section {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	margin-bottom: 10%;
+	border-bottom: solid 1px #808080;
+}
+
+.descriptionBlock {
+	flex: 1;
+	margin-right: 2%;
+}
+
+.imgBlock {
+	flex: 1;
+}
+
+.imgBlock img {
+	width: 100%;
+    max-width: 600px;
+    height: 80%;
+}
+
+/*#dishsBlock section div p {
+	font-size: 120%;
+	margin: 1%;
+}*/
+
+.captionDish {
+	font-size: 180%;
+	font-weight: bold;
+	margin-bottom: 3%; 
+}
+
+.textDish {
+	font-size: 120%;
+	margin-bottom: 3%;
+}
+
+ol {
+	margin-left: 5%;
+}
+
+li {
+	margin-bottom: 1%;
+}
+
